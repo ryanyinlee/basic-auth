@@ -85,14 +85,25 @@ run `npm init -y`
 
 CRUD
 
-**People**
+**User**
 
-- router.get('/people', read)
-- router.get('/people/:id', read)
-- router.post('/people', create)
-- router.patch('/people/:id', update)
-- router.delete('/people/:id', remove)
+/signup
 
+Use the JSON body in ThunderClient and POST.
+
+```
+{
+  "username": "john2",
+  "password": "foo"
+}
+```
+
+/signin
+
+Use the handy Basic Auth in ThunderClient and POST
+
+username: john2
+password: foo
 
 ## Current Deploys/GitHub Repository
 
